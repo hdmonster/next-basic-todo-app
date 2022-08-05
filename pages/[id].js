@@ -13,7 +13,11 @@ function Edit() {
   const { id } = router.query
 
   const { todos } = useSelector(todosValue)
-  const currentTodo = todos.filter(todo => todo.id == id)[0]
+  let currentTodo = {}
+
+  if (todos != undefined) {
+    currentTodo = todos.filter(todo => todo.id == id)[0]
+  }
 
   // Redux
   const dispatch = useDispatch()
