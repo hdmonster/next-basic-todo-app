@@ -1,0 +1,17 @@
+.default {
+  outline: none;
+  margin: 1em;
+  padding: 0.5em 1.5em;
+  border-radius: 2em;
+  color: #181818;
+  background: white;
+  border: 1px solid darkgray;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  -o-border-radius: 2em;
+}
+
+.default:focus {
+  border-color: #33abff;
+}
