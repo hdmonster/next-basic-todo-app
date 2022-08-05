@@ -1,4 +1,4 @@
-import Head from 'next/Head'
+import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import TodoList from '../components/TodoList'
 import { useTodosContext } from '../context/todos'
